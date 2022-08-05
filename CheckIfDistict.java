@@ -15,7 +15,7 @@ public class CheckIfDistict {
     }
     public static void main(String[] args) {
        
-        int ar2[] = {1,2,2,4,5,6}; // array containing distict elements
+        int ar2[] = {1,5,4,5,2}; // array containing distict elements
         boolean flag = checkDistinct(ar2);
         System.out.println(flag);
     }
